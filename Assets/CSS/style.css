@@ -11,15 +11,15 @@
       box-sizing: border-box;
       padding: 0;
       margin: 0;
-    }
-  
-    body {
+  }
+
+  body {
       background-color: var(--background-color);
       color: var(--text-color);
       font-family: var(--font-family);
-    }
+  }
 
-    /* Header title and navigation */
+  /* Header title and navigation */
 
   header {
     display: flex;
@@ -30,7 +30,7 @@
     color: var(--secondary-color);
   }
 
-    /* Render the heading on a secondary colour background to the left of the screen */
+  /* Render the heading on a secondary colour background to the left of the screen */
 
   header h1 {
     font-size: 2.5em;
@@ -66,7 +66,7 @@
     text-decoration: none;
   }
 
-    /* Main content */
+  /* Main content */
 
   main {
     display: flex;
@@ -185,4 +185,26 @@
     position: relative;
     bottom: 40px;
     width: auto;
+  }
+
+  /* Portfolio image backgrounds */
+
+  .google {
+    background-image: url('./../Images/google-update.jpeg');
+  }
+
+  .facebook {
+    background-image: url('./../Images/street.png');
+  }
+
+  .amazon {
+    background-image: url('./../Images/road.jpeg');
+  }
+
+  .linkedin {
+    background-image: url('./../Images/sky.jpeg');
+  }
+
+  .start-up {
+    background-image: url('./../Images/coding-image.jpeg');
   }
