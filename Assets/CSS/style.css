@@ -67,7 +67,7 @@
   }
 
     /* Main content */
-    
+
   main {
     display: flex;
     flex-direction: column;
@@ -86,4 +86,48 @@
   section > div {
     padding: 0 40px;
     flex-wrap: wrap;
+  }
+
+   /* Section labels with a fixed consistent width */
+
+   section .label {
+    display: flex;
+    flex-basis: 15%;
+    min-width: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: right;
+    justify-content: flex-end;
+    border-right: 8px solid var(--text-color);
+  }
+
+  section .label h2 {
+    line-height: 1.2em;
+    font-size: 3em;
+  }
+
+  /* Section content to fill remainder of parent space */
+
+  section .content {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  /* Remove flex wrap from only the About Me section content div so text and image align */
+
+  section#about-me .content {
+    flex-wrap: nowrap;
+  }
+
+  section .content p {
+    line-height: 1.8em;
+    font-size: 1.5em;
+    margin-left: 40px;
+  }
+
+  section .content img {
+    width: 300px;
+    height: 500px;
+    border-radius: var(--border-radius);
+    object-fit: cover;
   }
