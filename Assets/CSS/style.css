@@ -131,3 +131,23 @@
     border-radius: var(--border-radius);
     object-fit: cover;
   }
+
+  /* Work section */
+
+  /* Portfolio links */
+
+  /* Display portfolio items in two coloumns with space between */
+
+  section#work .content {
+    justify-content: space-between;
+  }
+
+  section#work .content a.card {
+    text-decoration: none;
+    height: 300px;
+    border: 8px solid var(--secondary-color);
+    margin-top: 20px;
+    flex-basis: 49%;
+    background-position: center;
+    background-size: cover;
+  }
