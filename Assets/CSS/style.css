@@ -298,4 +298,69 @@
       padding: 0 10px 5px 10px;
       border-bottom: 2px solid var(--secondary-color);
     }
-  }  
+
+    /* Sections are columns on smallest screens */
+
+    section {
+      flex-direction: column;
+      margin: 20px 0;
+    }
+
+    section > div {
+      padding: 0;
+    }
+
+    section .label {
+      flex-grow: 1;
+      width: 100%;
+      margin-bottom: 10px;
+      min-width: none;
+      text-align: center;
+      border: none;
+      justify-content: center;
+    }
+
+    section .content {
+      flex-grow: 1;
+      flex-basis: 100%;
+      width: 100%;
+    }
+
+    section#about-me .content {
+      flex-wrap: wrap;
+    }
+
+    section#about-me .content img {
+      width: 100%;
+      margin-bottom: 10px;
+      max-height: 400px;
+      object-fit: cover;
+      object-position: 50% 30%;
+    }
+
+    section .content p {
+      line-height: 1.8em;
+      font-size: 1.2em;
+      margin-left: 0;
+    }
+
+    section#work .content a.card {
+      height: 200px;
+    }
+
+    section#work .content a.card .work-label {
+      bottom: 10px;
+      padding: 10px 10px 10px 0;
+    }
+
+    section#contact-me .content ul {
+      flex-direction: column;
+      font-size: 1.2em;
+    }
+
+    section#contact-me .content ul li {
+      border-bottom: none;
+      padding: 10px 0;
+      margin: 0;
+    }
+  }
