@@ -1,0 +1,20 @@
+:root {
+    --font-family: 'Trebuchet MS', Sans-Serif;
+    --primary-color: #31343c;
+    --secondary-color: #9ecacc;
+    --border-radius: 4px;
+    --background-color: #EDEDF5;
+    --text-color: #485873;
+  }
+  
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+  
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+      font-family: var(--font-family);
+    }
