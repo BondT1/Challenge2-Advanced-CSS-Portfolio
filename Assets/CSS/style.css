@@ -65,3 +65,25 @@
     border-bottom: 4px solid var(--secondary-color);
     text-decoration: none;
   }
+
+    /* Main content */
+    
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  section {
+    display: flex;
+    padding: 0 20px;
+    margin: 40px 0;
+  }
+
+  /* Set padding and flex wrap for the immediate child divs of each section */
+
+  section > div {
+    padding: 0 40px;
+    flex-wrap: wrap;
+  }
