@@ -235,3 +235,32 @@
     padding: 40px;
     justify-content: space-between;
   }
+
+  @media only screen and (max-width: 1224px) {
+    /* Content width 100% on smaller screens */
+
+    main {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* Reduce text and image sizes */
+
+    section .label {
+      font-size: 0.8em;
+      min-width: 200px;
+    }
+
+    section .content img {
+      width: 200px;
+      height: 350px;
+    }
+
+    section .content p {
+      font-size: 1.2em;
+    }
+
+    section#contact-me .content ul {
+      font-size: 1.2em;
+    }
+  }
