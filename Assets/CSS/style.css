@@ -136,7 +136,7 @@
 
   /* Portfolio links */
 
-  /* Display portfolio items in two coloumns with space between */
+  /* Display portfolio items in two columns with space between */
 
   section#work .content {
     justify-content: space-between;
