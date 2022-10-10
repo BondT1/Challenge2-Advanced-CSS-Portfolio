@@ -2,7 +2,7 @@
 
 ## Description
 
-The aim of this project was to create a functional website that will act as my online portfolio as I progress through the coding boot camp. As I start looking for work nearing the end of this boot camp, his website will allow potential employers to review samples of my work and assess my skills. 
+The aim of this project was to create a functional website that will act as my online portfolio as I progress through the coding boot camp. As I start looking for work nearing the end of this boot camp, this website will allow potential employers to review samples of my work and assess my skills. 
 
 Starting from scratch and using HTML and CSS coding, the webpage consists of:
 
@@ -18,7 +18,7 @@ The code to create this project consists of:
 - HTML classes and anchors 
 - CSS variables 
 - Flex box
-- CSS Background positions- 
+- CSS Background positions 
 - Media queries and responses 
 
 The deployed website can be viewed through this link - https://bondt1.github.io/Challenge2-Advanced-CSS-Portfolio/
