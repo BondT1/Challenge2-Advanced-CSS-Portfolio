@@ -18,8 +18,10 @@ The code to create this project consists of:
 - HTML classes and anchors 
 - CSS variables 
 - Flex box
-- CSS Background positions
+- CSS Background positions- 
 - Media queries and responses 
+
+The deployed website can be viewed through this link - https://bondt1.github.io/Challenge2-Advanced-CSS-Portfolio/
 
 ## Installation
 
@@ -33,11 +35,7 @@ When the links in the header are clicked, the UI wil scroll down to the correspo
 
 The website layout will adapt to different display sizes on various devices to ensure the information is always displayed in a clear and efficient manner.
 
-
-
-
-
-![A Screen grab of the deployed portfolio website.](assets/images/screenshot.png)
+![A Screen grab of the deployed portfolio website.](Assets/Images/Advanced-CSS-Portfolio-%20Screengrab.png)
 
 ## Credits
 
